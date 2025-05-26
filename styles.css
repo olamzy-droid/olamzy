@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+img{
+    height: auto;
+    width: 350px;
+    transition: all 3.7s ease-in-out ;
+    transition-delay: 0.9s;
+    border-radius: 100%;
+}
+
+img:hover{
+    /* width: 650px; */
+    transform: translate( 1150px); 
+    cursor: pointer;
+  
+}

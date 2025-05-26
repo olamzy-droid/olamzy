@@ -1,0 +1,177 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.flexbox-container{
+   background-color: blue;
+   height: 100vh;
+   width: 200vh;
+   display: flex;
+   justify-content: space-around;
+}
+.free{
+    font-size: 30px;
+    font: bold;
+    padding-left: 200px;
+    padding-top: 50px;
+    font: normal;
+}
+.form{
+    border: 5px solid white;
+    background-color: aliceblue;
+    border-radius: 15px;
+    width: 400px;
+    padding: 25px;
+    height: 550px;
+    margin-top: 100px;
+
+}
+.one{
+    margin: 20px;
+
+}
+.bot{
+    border: 3px solid white;
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding-top: 10px;
+    width: 200px;
+    height: 100px;
+    font-size: xx-large;
+    margin: 150px;
+    margin-right: 100px;
+    margin-top: -340px;
+    position: absolute;
+    z-index: 2; /* Lower stacking order */
+   
+   
+}
+.paint{
+    text-align: center;
+    border-radius: 40px;
+    padding: 15px;
+    background-color: rgb(48, 75, 253);
+    color: white;
+    font-size: large;
+    width: 350px;
+    border: none;
+    margin-right: 200px;
+}
+button:hover{
+    background-color: rgb(7, 7, 179);
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    margin-top: 250px;
+    border-radius: 100%;    
+    margin-right: 1500px;
+    position: relative;
+    z-index: 1; /* Higher stacking order */
+    
+
+}
+.plot{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 70px;
+    margin-top: 500px;
+    margin-left: -1920px;
+    z-index: 3;/* lower stacking order*/
+    width: 215px;
+    padding-bottom: 15px;
+}
+.two{
+    margin: 20px;
+    
+}
+#pet{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);/* create 3 equal columns*/
+}
+.cl{
+    font-size: medium;
+}
+.dress{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    
+}
+.mat{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.back{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.front{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+#email {
+    border: 2px solid rgb(9, 68, 244);
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+
+}
+#password {
+    border: 2px solid rgb(9, 68, 244);
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+
+}
+.stone {
+    margin: 20px;
+}
+a:hover{
+    color: rgb(127, 189, 255);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        
+        gap: 25px;
+       background-color: blue;
+        margin-bottom: 100px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-bottom: 100px;
+        width: 350px;
+        position: relative;
+        border-radius: 20px;
+        display: block;
+        margin: auto;
+    }
+    .img{
+        display: none;
+    }
+    .plot{
+        display: none;
+    }
+    .free{
+        margin-top: -30px;
+        margin-left: 620px;
+    }
+    #pet{
+        height: max-content;
+    }
+}

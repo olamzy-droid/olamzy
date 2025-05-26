@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,white, rgb(109, 109, 164),rgb(33, 33, 157));
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+  
+}
+header{
+    border: 2px solid white;
+    box-shadow: 12px 12px 10px rgb(55, 55, 55);
+    z-index: 1;/*higher stacking order*/
+    position: fixed;
+    background-color: #ffffff;
+    
+
+}
+.left{
+    font-size: large;
+    font: bolder;
+    color: rgb(65, 65, 121);
+   
+    
+}
+.map{
+    margin-left: 60px;
+
+}
+.lop{
+    text-align: center;
+    font-size: larger;
+    font: bolder;
+}
+footer{
+    background-color: rgb(31, 31, 95);
+    margin-top: 10px;
+    height: 600px;
+    border: 2px solid rgb(93, 92, 92);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+     list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.pig{
+    text-align: center;
+    font-size: xx-large;
+    font:600;
+    margin-top: 25px;
+}
+
+.pest{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 100px;
+    color: rgb(37, 37, 104);
+    
+    z-index: 2;/*lower stacking order*/
+}
+th{
+    height: 55px;
+    padding-left: 100px;
+}
+#form{
+    margin: 5px;
+    display: flex;
+    flex-direction: column; 
+    background-color: aliceblue;
+    box-shadow: 10px 10px 10px rgb(66, 66, 66);
+    width: 750px;
+    height: 850px;
+    gap: 10px;
+    margin-left: 200px;
+    margin-top: 75px;
+    padding: 20px;
+}
+.formpet{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 45px;
+}
+#formpet input{
+    width:700px ;
+    height:35px ;
+    border-radius: 2px;
+    height: 50px;
+}
+#formpet select{
+    width:700px ;
+    height:35px ;
+    border-radius: 5px;
+    height: 50px;
+}
+#formpet textarea{
+    width:500px ;
+    height:35px ;
+}
+#form button{
+    width: 500px;
+    background-color: #ebeced;
+    padding: 10px;
+    margin-left: 130px;
+    border-radius: 2px;
+    height: 50px;
+}
+.ripe{
+    padding-left: 20px;
+}
+
+.formchild{
+    flex-direction: column;
+    display: flex;
+    margin-right: 35px;
+    height: 700px;
+    display: flex;
+    width: 700px;
+
+}
+#email{
+    padding: 10px;
+}
+.gen{
+   
+    height: 500px;
+    box-shadow: 0 2px 19px 9px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 40px 40px;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+    width: 350px;
+    column-gap: 100px;
+    margin-left: 60px;
+    
+}
+
+.h5{
+    text-align: center;
+}
+.h6{
+    text-align: center;
+}
+table{
+    color: white;
+    justify-content:space-around ;
+    text-align: left;
+    padding: 20px;
+    width: 100vw;
+    margin-bottom: 50px;
+}
+.foot{
+     display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-top: 30px;
+    gap: 50px;
+    margin-right: 90px;
+}
+   
