@@ -74,7 +74,7 @@ th{
     margin: 5px;
     display: flex;
     flex-direction: column; 
-    background-color: aliceblue;
+    background-color: rgb(250, 247, 247);
     box-shadow: 10px 10px 10px rgb(66, 66, 66);
     width: 750px;
     height: 850px;
@@ -82,6 +82,7 @@ th{
     margin-left: 200px;
     margin-top: 75px;
     padding: 20px;
+    border-radius: 10px;
 }
 .formpet{
     width: 70%;

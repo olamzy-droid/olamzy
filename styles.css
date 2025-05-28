@@ -3,26 +3,23 @@
     padding: 0%;
 }
 
+/*animation code*/
+@keyframes example{
+    from{background-color: rgb(2, 116, 21);}
+    to{background-color: rgb(0, 51, 180);}
+    0%, 100% { transform: translate(0);}
+    50% { transform: translateX(-50px);}
+}
 
-body{
-    display: flex;
-    justify-content: left;
+/*element to apply to animation*/
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-img{
-    height: auto;
-    width: 350px;
-    transition: all 3.7s ease-in-out ;
-    transition-delay: 0.9s;
-    border-radius: 100%;
-}
-
-img:hover{
-    /* width: 650px; */
-    transform: translate( 1150px); 
-    cursor: pointer;
-  
+    margin: auto;
+    padding: auto;
 }
