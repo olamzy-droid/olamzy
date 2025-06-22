@@ -1,0 +1,158 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+  background-color: #4B0082;    
+  color: white;                  
+  padding: 20px 40px;             
+  display: flex;                 
+  justify-content: space-between;
+  align-items: center;          
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #FFD700; 
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeaeae;
+    background: radial-gradient(circle, rgba(238, 174, 174, 1) 0%, rgba(148, 217, 233, 1) 100%);   
+}
+
+#vid {
+                   
+  border-radius: 12px;        
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+  display: inline-block;               
+  margin: 20px ;            
+  outline: none;                
+}
+
+#playPauseBtn {
+  background-color: #6c63ff;     
+  color: white;                 
+  border: none;                  
+  padding: 12px 24px;            
+  font-size: 16px;               
+  font-weight: 600;              
+  border-radius: 8px;           
+  cursor: pointer;              
+  transition: background-color 0.3s, transform 0.2s; 
+  
+}
+
+button:hover {
+  background-color: #3d3790;     
+  transform: scale(1.05);       
+}
+
+button:active {
+  transform: scale(0.97);        
+}
+
+video {
+  height: 500px;
+  margin-top: 500px;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.box {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #eeaeae;
+  background: radial-gradient(circle, rgba(238, 174, 174, 1) 0%, rgba(148, 217, 233, 1) 100%);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+nav {
+  width: 100%;
+  background-color: #5c4db1;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+nav h2 {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+
+.vid {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.vid video {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  height: 500px;
+}
+
+
+#playPauseBtn {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#playPauseBtn:hover {
+  background-color: #45a049;
+}
+
+
+#see {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+
+
+
+ 
